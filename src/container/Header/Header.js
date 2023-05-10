@@ -1,12 +1,14 @@
-import { motion } from "framer-motion";
+import { motion, useAnimation } from "framer-motion";
+import { useInView } from "react-intersection-observer";
 import "./Header.scss";
-
+import AnimatedLetters from "../../components/AnimatedLetters/Letters";
 import { useEffect, useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faTwitter } from "@fortawesome/free-brands-svg-icons";
 
 const Header = () => {
   const [letterClass, setLetterClass] = useState("text-animate");
+  const nameArray = [" ", "E", "n", "r", "i", "q", "u", "e"];
   // const jobArray = ["I", "T", " ", "S", "t", "u", "d", "e", "n", "t", "."];
   useEffect(() => {
     let timeoutId = setTimeout(() => {
@@ -16,6 +18,23 @@ const Header = () => {
       clearTimeout(timeoutId);
     };
   }, []);
+
+  const { ref, inView } = useInView({ threshold: 0.8 });
+  const animation = useAnimation();
+
+  useEffect(() => {
+    if (inView) {
+      animation.start({
+        y: 0,
+        transition: {},
+      });
+    }
+    if (!inView) {
+      animation.start({
+        y: "-100vh",
+      });
+    }
+  });
 
   return (
     <>
@@ -27,7 +46,17 @@ const Header = () => {
             <br />
             <span className={`${letterClass} _13`}>I</span>
             <span className={`${letterClass} _14`}>'m </span>
-           
+            <AnimatedLetters
+              letterClass={letterClass}
+              strArray={nameArray}
+              idx={15}
+            />
+            {/* <br />
+            <AnimatedLetters
+              letterClass={letterClass}
+              strArray={jobArray}
+              idx={22}
+            /> */}
           </h1>
           <h2>Full-Stack Developer</h2>
 
@@ -63,6 +92,13 @@ const Header = () => {
               </motion.button>
             </a>
           </motion.div>
+        </div>
+        <div ref={ref}>
+          <motion.svg className="arrows" animate={animation}>
+            <path className="a1" d="M0 0 L30 32 L60 0"></path>
+            <path className="a2" d="M0 20 L30 52 L60 20"></path>
+            <path className="a3" d="M0 40 L30 72 L60 40"></path>
+          </motion.svg>
         </div>
       </div>
     </>
