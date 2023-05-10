@@ -9,71 +9,76 @@
 
 .container {
   padding: 20px;
-
   align-items: center;
-
-  @media screen and (max-width:900px) {
+}
+@media screen and (max-width: 900px) {
+  .container {
     padding: 0px;
   }
-  h1 {
-    @media screen and (max-width:900px) {
-      padding-top: 15px;
-    }
+}
+@media screen and (max-width: 900px) {
+  .container h1 {
+    padding-top: 15px;
   }
 }
+
 .boxes {
   margin-top: 25px;
   display: flex;
   margin-left: 15%;
   margin-right: 15%;
-
-  @media screen and (max-width:900px) {
+}
+@media screen and (max-width: 900px) {
+  .boxes {
     flex-flow: row wrap;
     width: 100%;
     margin-left: 0%;
     margin-right: 0%;
   }
 }
+
 .boxes:last-child {
   margin-top: 60px;
   display: flex;
 }
+
 .box {
   font-size: 1em;
   line-height: 1.5em;
   font-weight: 200;
   width: 100%;
-
   padding: 35px;
-  @media screen and (max-width:900px) {
+}
+@media screen and (max-width: 900px) {
+  .box {
     padding: 5%;
   }
-
-  :last-child {
-    border-right: 0;
-  }
-  .icon {
-    font-size: 4em;
-    color: #555;
-    margin-bottom: 25px;
-  }
-  .icon:hover {
-    color: var(--secondary-color);
-  }
-
-  .text-container {
-    font-style: italic;
-    color: var(--fourth-color);
-    margin-bottom: 0.5em;
-    letter-spacing: 1px;
-    font-family: Lora, serif;
-    width: 100%;
-  }
+}
+.box :last-child {
+  border-right: 0;
+}
+.box .icon {
+  font-size: 4em;
+  color: #555;
+  margin-bottom: 25px;
+}
+.box .icon:hover {
+  color: var(--secondary-color);
+}
+.box .text-container {
+  font-style: italic;
+  color: var(--fourth-color);
+  margin-bottom: 0.5em;
+  letter-spacing: 1px;
+  font-family: Lora, serif;
+  width: 100%;
 }
 
 .button-container {
   margin-bottom: 10px;
-  @media screen and (max-width: 700px) {
+}
+@media screen and (max-width: 700px) {
+  .button-container {
     margin-top: 0px;
     margin-bottom: 10px;
   }
@@ -93,8 +98,9 @@
   cursor: pointer;
   touch-action: manipulation;
   margin: 25px;
-
-  @media screen and (max-width: 700px) {
+}
+@media screen and (max-width: 700px) {
+  .button {
     margin: 10px;
   }
 }
@@ -106,4 +112,4 @@
 
 .divider-experience {
   border-bottom: solid 1px #777 !important;
-}
+}/*# sourceMappingURL=Experience.css.map */
