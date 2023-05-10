@@ -2,6 +2,7 @@ import React from "react";
 import {
   Header,
   Skills,
+  About,
 } from "./container";
 import "./App.scss";
 
@@ -11,6 +12,7 @@ const App = () => {
     <div className="app">
       <Header />
       <Skills />
+      <About />
     </div>
   );
 };
