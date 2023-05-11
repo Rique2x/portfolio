@@ -3,7 +3,8 @@ import {
   Header,
   Skills,
   About,
-  Experience
+  Experience,
+  Particles
 } from "./container";
 import "./App.scss";
 
@@ -13,6 +14,7 @@ const App = () => {
     <div className="app">
       <Header />
       <Skills />
+      <Particles />
       <About />
       <Experience />
     </div>
