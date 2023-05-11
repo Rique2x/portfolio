@@ -6,12 +6,14 @@ import {
   Experience,
   Particles
 } from "./container";
+import { Navbar } from "./components";
 import "./App.scss";
 
 const App = () => {
   document.title = "Rique's Portfolio";
   return (
     <div className="app">
+      <Navbar />
       <Header />
       <Skills />
       <Particles />
