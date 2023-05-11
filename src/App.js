@@ -4,7 +4,7 @@ import {
   Skills,
   About,
   Experience,
-  Particles
+  Particles,
 } from "./container";
 import { Navbar } from "./components";
 import "./App.scss";
