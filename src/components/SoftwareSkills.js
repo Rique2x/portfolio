@@ -11,7 +11,7 @@ export const mySkills = {
     },
     {
       skill: "Typescript",
-      fontAwesome: "fab fa-typescript",
+      fontAwesome: "fab fa-tumblr-square",
     },
     {
       skill: "React",
@@ -40,7 +40,7 @@ export const mySkills = {
     },
     {
       skill: "Webpack",
-      fontAwesome: "fas fa-webpack",
+      fontAwesome: "fas fa-atom",
     },
     {
       skill: "Git",
