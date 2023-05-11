@@ -19,12 +19,12 @@
   
       &:hover {
         color: var(--secondary-color);
-        transform: scale(1.1);
+        transition: scale(0.3);
       }
   
       &:hover ~ p {
         color: var(--secondary-color);
-        transform: scale(1.1);
+        transition: scale(0.3);
       }
     }
   }
