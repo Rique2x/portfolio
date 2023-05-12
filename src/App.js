@@ -5,7 +5,8 @@ import {
   About,
   Experience,
   Particles,
-  Footer
+  Footer,
+  Slider
 } from "./container";
 import { Navbar } from "./components";
 import "./App.scss";
@@ -19,6 +20,7 @@ const App = () => {
       <Header />
       <Skills />
       <About />
+      <Slider />
       <Experience />
       <Footer />
     </div>

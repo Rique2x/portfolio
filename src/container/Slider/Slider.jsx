@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { Swiper, SwiperSlide } from "swiper/react";
 import React from "react";
 import { Pagination } from "swiper";
-import { mySkills } from "../../components/SoftwareSkill";
+import { mySkills } from "../../components/SoftwareSkills";
 
 import SwiperSlideContent from "./SwiperSlideContent";
 
@@ -13,7 +13,7 @@ export default function Slider() {
   let project2 = [];
   let project3 = [];
   let project4 = [];
-  let project5 = [];
+
  
 
   for (let i = 0; i < mySkills.softwareSkills.length; i++) {
@@ -51,10 +51,6 @@ export default function Slider() {
             1440: {
               slidesPerView: 4,
             },
-            1480: {
-              slidesPerView: 5,
-            },
-            
           }}
         
           spaceBetween={40}
@@ -67,9 +63,6 @@ export default function Slider() {
         >
           <SwiperSlide>
             <SwiperSlideContent project3={project3} />
-          </SwiperSlide>
-          <SwiperSlide>
-            <SwiperSlideContent project5={project5} />
           </SwiperSlide>
           <SwiperSlide>
             <SwiperSlideContent project4={project4} />

@@ -74,7 +74,7 @@ const Header = () => {
                 <FontAwesomeIcon
                   icon={faTwitter}
                   className="linkedIn"
-                  title={"LinkedIn"}
+                  title={"Twitter"}
                 />
               </motion.button>
             </a>
