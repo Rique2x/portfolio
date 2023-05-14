@@ -6,6 +6,7 @@ import "@fortawesome/free-solid-svg-icons";
 import {
     faComputer
 } from "@fortawesome/free-solid-svg-icons";
+import ReusableButton from "../../components/Buttons/ReusableButton";
 
 const Experience = () => {
   return (
@@ -42,6 +43,25 @@ const Experience = () => {
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ type: "easeIn", duration: 1, delay: 0.1 }}
         >
+          <ReusableButton
+            className="button"
+            onClick={() =>
+              window.open(
+                "",
+                "_blank"
+              )
+            }
+          >
+            Full CV
+          </ReusableButton>
+          <ReusableButton
+            className="button"
+            onClick={() =>
+              (window.location = "mailto:enrique2heinrich@gmail.com")
+            }
+          >
+            Contact
+          </ReusableButton>
         </motion.div>
         <div className="divider-experience"></div>
       </motion.div>
