@@ -65,16 +65,16 @@ const Header = () => {
             animate={{ rotate: 360 }}
             transition={{ type: "spring", duration: 4.5, bounce: 0.8 }}
           >
-            <a href="https://twitter.com/rique_xix">
+            <a href="https://www.linkedin.com/in/enrique-hoebeb-687a22276">
               <motion.button
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}
                 className="btn"
               >
                 <FontAwesomeIcon
-                  icon={faTwitter}
+                  icon={faLinkedin}
                   className="linkedIn"
-                  title={"Twitter"}
+                  title={"Linkedin"}
                 />
               </motion.button>
             </a>
