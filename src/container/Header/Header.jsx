@@ -9,7 +9,7 @@ import { faGithub, faTwitter } from "@fortawesome/free-brands-svg-icons";
 const Header = () => {
   const [letterClass, setLetterClass] = useState("text-animate");
   const nameArray = [" ", "E", "n", "r", "i", "q", "u", "e"];
-  // const jobArray = ["I", "T", " ", "S", "t", "u", "d", "e", "n", "t", "."];
+
   useEffect(() => {
     let timeoutId = setTimeout(() => {
       setLetterClass("text-animate-hover");
