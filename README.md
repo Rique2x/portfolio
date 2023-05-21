@@ -8,8 +8,6 @@
 	<h3><b><a href="https://enriquehoebeb.netlify.app/">View Live Demo</a></b></h3>
 </div>
 
-![Gif of Project](./readme-assets/portfolio.mp4)
-
 ## Description
 
 My personal portfolio site.
