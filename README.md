@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+<div  align=center>
+	<h1>Portfolio
+	<br>
+		<img src="https://img.shields.io/static/v1?label=&message=React&color=61DAFB&style=for-the-badge&logo=react&logoColor=black&logoWidth=&labelColor=&link=">
+		<img src="https://img.shields.io/static/v1?label=&message=Javascript&color=F7DF1E&style=for-the-badge&logo=Javascript&logoColor=black&logoWidth=&labelColor=&link=">
+		<br>
+	</h1>
+	<h3><b><a href="https://enriquehoebeb.netlify.app/">View Live Demo</a></b></h3>
+</div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Gif of Project](./readme-assets/portfolio.gif)
 
-## Available Scripts
+## Description
 
-In the project directory, you can run:
+My personal portfolio site.
 
-### `npm start`
+## Built Using
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React <img height="16" width="16" src="https://cdn.simpleicons.org/react" />
+- Javascript <img height="16" width="16" src="https://cdn.simpleicons.org/javascript" />
+- Prettier <img height="16" width="16" src="https://cdn.simpleicons.org/prettier" />
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Credits
 
-### `npm test`
+#### Libraries
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [Framer Motion](https://www.framer.com/motion/)
 
-### `npm run build`
+#### Icons
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [React Icons](https://github.com/react-icons/react-icons)
+- [Google Material Icons](https://fonts.google.com/icons)
+- [Simple Icons](https://simpleicons.org/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#### Other
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [FranksLaboratory - Canvas Particle Effect](https://www.youtube.com/@Frankslaboratory/)
 
-### `npm run eject`
+## Gallery
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+#### Desktop
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<img src="./readme-assets/portfolio-desktop.png" alt="Image of project on Desktop" />
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+#### Mobile
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<img src="./readme-assets/portfolio-mobile.png" alt="Image of project on Mobile" />
