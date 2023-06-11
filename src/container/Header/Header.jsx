@@ -4,7 +4,7 @@ import "./Header.scss";
 import AnimatedLetters from "../../components/AnimatedLetters/Letters";
 import { useEffect, useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 const Header = () => {
   const [letterClass, setLetterClass] = useState("text-animate");
@@ -65,19 +65,6 @@ const Header = () => {
             animate={{ rotate: 360 }}
             transition={{ type: "spring", duration: 4.5, bounce: 0.8 }}
           >
-            <a href="https://www.linkedin.com/in/enrique-hoebeb-687a22276">
-              <motion.button
-                whileHover={{ scale: 1.1 }}
-                whileTap={{ scale: 0.9 }}
-                className="btn"
-              >
-                <FontAwesomeIcon
-                  icon={faLinkedin}
-                  className="linkedIn"
-                  title={"Linkedin"}
-                />
-              </motion.button>
-            </a>
             <a href="https://github.com/Rique2x">
               <motion.button
                 whileHover={{ scale: 1.15 }}

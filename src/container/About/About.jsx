@@ -18,7 +18,7 @@ const About = () => {
           <p className="title-text">
           Hi, my name is Enrique Hoebeb and I am a 22-year-old self-taught 
           full-stack developer who embarked on my programming journey just 
-          8 months ago through The Odin Project. Hailing from the beautiful 
+          9 months ago through The Odin Project. Hailing from the beautiful 
           town of Arandis, Namibia, I have shown remarkable dedication and 
           passion in my pursuit of learning to code. Thanks to The Odin Project, 
           I have developed a solid foundation in web development and have been 
@@ -27,11 +27,19 @@ const About = () => {
           </p>
           <p className="title-text">
           My passion lies in programming, new technology, and all things IT-related. 
-          I am always eager to tackle new challenges, and if you have any job 
-          opportunities you'd like to discuss with me for the summer or fall of 2023, 
-          please don't hesitate to reach out. This website serves as a complement to 
-          my CV, so feel free to check that out as well. Below, you'll find a list of 
-          some of the technologies and projects I've had the pleasure of working with.
+          I am always eager to tackle new challenges, and if you have any job opportunities 
+          you'd like to discuss with me for the summer or fall of 2023, please don't 
+          hesitate to reach out. This website serves as a complement to my CV, so feel
+          free to check that out as well.
+          </p>
+          <p className="title-text">
+          Additionally, I am available for gigs and freelancing projects. If you have any 
+          short-term assignments or specific tasks that require programming expertise, 
+          I'm more than happy to discuss them with you. Whether it's a small project or a 
+          one-time task, I'm open to considering various opportunities. Please don't hesitate 
+          to reach out if you need assistance with your programming or IT-related needs.
+          Below, you'll find a list of some of the technologies and projects I've had the 
+          pleasure of working with.
           </p>
         </motion.div>
       </div>
