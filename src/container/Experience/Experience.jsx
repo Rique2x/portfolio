@@ -43,8 +43,6 @@ const Experience = () => {
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ type: "easeIn", duration: 1, delay: 0.1 }}
         >
-            Full CV
-          </ReusableButton>
           <ReusableButton
             className="button"
             onClick={() =>
