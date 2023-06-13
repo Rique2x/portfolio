@@ -43,15 +43,6 @@ const Experience = () => {
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ type: "easeIn", duration: 1, delay: 0.1 }}
         >
-          <ReusableButton
-            className="button"
-            onClick={() =>
-              window.open(
-                "https://drive.google.com/file/d/17O5rt5zZLjOj0Zv2Y2mMsF-jeOcOhUSR/view?usp=sharing",
-                "_blank"
-              )
-            }
-          >
             Full CV
           </ReusableButton>
           <ReusableButton
