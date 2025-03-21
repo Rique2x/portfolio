@@ -19,7 +19,7 @@ const About = () => {
           Hi, my name is Enrique Hoebeb and I am a 22-year-old self-taught 
           full-stack developer who embarked on my programming journey through The 
           Odin Project. Originally from the beautiful town of Arandis, Namibia, 
-          but residing in Canada I have shown remarkable dedication and passion in 
+          but residing in Windhoek. I have shown remarkable dedication and passion in 
           my pursuit of learning to code. Thanks to The Odin Project,I have developed 
           a solid foundation in web development and have been working diligently to 
           improve my skills in both front-end and back-end development.
